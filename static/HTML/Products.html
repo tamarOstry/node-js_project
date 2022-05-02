@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="../Scripts/Products.js"></script>
+    <link href="../CSS/Products.css" rel="stylesheet" />
+
+    <meta charset="utf-8" />
+    <title></title>
+    <template id="temp-card">
+        <div class="card">
+            <div class="img-w">
+                <img src="" alt="" style="width:100%">
+            </div>
+            <h2 class="nameProduct"></h2>
+            <p class="price"></p>
+            <p class="description"></p>
+            <p><button >הוסף לסל</button></p>
+        </div>
+    </template>
+    <template id="temp-category">
+        <div class="cb checkbox">
+            <input type="checkbox" class="opt" id="" value="">
+            <label class="lbl" for="">
+                <div class="OptionName"></div>
+                <div class="Count"></div>
+            </label>
+        </div>
+    </template>
+</head>                                      
+<body onload="">
+    <header>
+        <div class="bar">
+            <section class="QuickLinks">
+                <ul>
+                    <li class="" data-section="myAccount">
+                        <a href="#" title="כניסה לצפייה בפרטי החשבון" data-link-id="DataLinkId" onclick="TrackLinkID(this);" data-link-name="DataLinkName" data-external="DataExternal" accesskey="h">החשבון שלי</a>
+                    </li>
+                    <li>
+                        <a href="#" title="קניה מהירה">קניה מהירה</a>
+                    </li>
+                    <li>
+                        <a href="#" title="עזרה - שאלות נפוצות, כיצד לקנות באינטרנט, מדריך ועוד" data-link-type="helpsite" target="_blank">עזרה</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!--   <section class="Search">
+            <form id="newsearch" name="newsearch" action="https://www.next.co.il/he/search" method="get" data-link-id="01-06" data-link-name="Search" onsubmit="TrackLinkID(this);">
+                <div class="helper">
+                    <label for="sli_search_1">חיפוש:</label>
+                </div>
+                <input type="text" name="w" value="" id="sli_search_1" class="SearchBox" oninvalid="this.setCustomValidity('\u05d0\u05e0\u05d0 \u05de\u05dc\u05d0\u05d5 \u05d0\u05ea \u05e9\u05d3\u05d4 \u05d6\u05d4')" oninput="this.setCustomValidity('')" title="אנא מלאו את שדה זה" placeholder="חיפוש מוצר או מותג" required="required" spellcheck="false" autocomplete="off">
+                <input type="hidden" name="isort" value="bst">
+                <input type="hidden" id="search-af" name="af">
+                <input type="submit" value="" title="חיפוש פריטים" class="SearchButton">
+                <ul class="search dropdown" style="display: none;">
+                
+            <li class="recent-heading">החיפושים האחרונים שלך...<a class="clear-recent" href="#">נקה</a></li>
+            </ul>
+            </form>
+            </section>-->
+
+            <!--<span style="color:white">סע בזהירות,בחיים בבית או בבית החיים!!!</span>-->
+            <span class="BagSummary MiniBagNonSecure">
+                <a href="shoppingbag.html">
+                    <div class="Icon">
+                        <div class="ItemCount">
+                            <span id="ItemsCountText">0</span>
+                        </div>
+                    </div>
+                    <!--<div class="BagTextClipping  nextDisplayNone">
+                        <div id="bagtext" class="BagSummaryText">44.00 ₪</div>
+                    </div>
+                    <div class="ClearBoth"></div>-->
+                </a>
+            </span>
+            <div class="Checkout ">
+                <a class="goToCart" data-link-id="01-08" data-link-name="Checkout" rel="nofollow" href="ShoppingBag.html">לקופה</a>
+            </div>
+
+            <!--<select id="categoriesSelect">
+            </select>-->
+
+        </div>
+    </header>
+    <div id="filters" class="Filters fixedVisible">
+        <div class="ResultCount" style="position: absolute; top: 0px;">
+            <a class="Clear" href="Products.html">נקה הכל</a>
+            <div><span id="counter">0</span> מוצרים</div>
+        </div>
+      </div>
+    <div id="PoductList">
+
+    </div>
+
+</body>
+</html>

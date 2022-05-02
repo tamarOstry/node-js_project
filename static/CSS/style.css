@@ -1,0 +1,9 @@
+﻿.one{
+    background-color:aqua;
+    color:brown;
+    border:5px groove red;
+}
+
+.wrong{
+    background-image: url('../images/404.gif');
+}

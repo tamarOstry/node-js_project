@@ -1,0 +1,195 @@
+error:Apr-27-2022 14:35:00:Cannot populate path `productId` because it is not in your schema. Set the `strictPopulate` option to false to override.
+error:Apr-27-2022 15:26:40:Schema hasn't been registered for model "orderSchema".
+Use mongoose.model(name, schema)
+error:Apr-27-2022 17:10:22:{
+  userId: new ObjectId("6266ca75ff39855ed8a8729c"),
+  date: 2022-04-27T14:10:22.430Z,
+  amount: 12000,
+  products: [ { quantity: 1, _id: new ObjectId("6266ba16a1628b2418225cdd") } ],
+  _id: new ObjectId("62694eceba1762a804363188"),
+  createdAt: 2022-04-27T14:10:22.628Z,
+  updatedAt: 2022-04-27T14:10:22.628Z,
+  __v: 0
+}
+error:Apr-27-2022 17:24:17:{
+  userId: new ObjectId("6266ca75ff39855ed8a8729c"),
+  date: 2022-04-27T14:24:17.055Z,
+  amount: 167000,
+  products: [
+    { quantity: 1, _id: new ObjectId("6266ba16a1628b2418225cdd") },
+    { quantity: 1, _id: new ObjectId("6266b9f6a1628b2418225cdb") }
+  ],
+  _id: new ObjectId("62695211ba1762a80436319a"),
+  createdAt: 2022-04-27T14:24:17.060Z,
+  updatedAt: 2022-04-27T14:24:17.060Z,
+  __v: 0
+}
+error:Apr-27-2022 17:25:04:Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+error:Apr-27-2022 17:25:06:Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+error:Apr-27-2022 17:25:06:Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+error:Apr-27-2022 17:25:11:Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+error:Apr-27-2022 17:25:21:Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+error:Apr-27-2022 17:26:17:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : null }
+error:Apr-27-2022 17:26:54:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : "GFGF@gmail.com" }
+error:Apr-27-2022 17:29:14:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : null }
+error:Apr-27-2022 17:33:35:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : null }
+error:Apr-27-2022 17:34:06:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : null }
+error:Apr-27-2022 17:34:07:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : null }
+error:Apr-27-2022 17:34:08:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : null }
+error:Apr-27-2022 17:34:08:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : null }
+error:Apr-27-2022 17:35:06:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : null }
+error:Apr-27-2022 17:43:16:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : null }
+error:Apr-27-2022 17:43:18:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : null }
+error:Apr-27-2022 17:43:18:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : null }
+error:Apr-27-2022 17:44:55:Users validation failed: firstName: Path `firstName` (`t`) is shorter than the minimum allowed length (2)., lastName: Path `lastName` (`o`) is shorter than the minimum allowed length (2)., password: Path `password` (`123`) is shorter than the minimum allowed length (8).
+error:Apr-27-2022 17:47:25:Users validation failed: firstName: Path `firstName` (`r`) is shorter than the minimum allowed length (2)., lastName: Path `lastName` (`c`) is shorter than the minimum allowed length (2)., password: Path `password` (`852`) is shorter than the minimum allowed length (8).
+error:Apr-27-2022 17:47:26:Users validation failed: firstName: Path `firstName` (`r`) is shorter than the minimum allowed length (2)., lastName: Path `lastName` (`c`) is shorter than the minimum allowed length (2)., password: Path `password` (`852`) is shorter than the minimum allowed length (8).
+error:Apr-27-2022 17:47:27:Users validation failed: firstName: Path `firstName` (`r`) is shorter than the minimum allowed length (2)., lastName: Path `lastName` (`c`) is shorter than the minimum allowed length (2)., password: Path `password` (`852`) is shorter than the minimum allowed length (8).
+error:Apr-27-2022 17:48:37:Users validation failed: password: Path `password` (`852`) is shorter than the minimum allowed length (8).
+error:Apr-27-2022 17:50:16:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : "t@gmail.com" }
+error:Apr-27-2022 17:50:27:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : "t@gmail.com" }
+error:Apr-27-2022 17:50:49:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : "t@gmail.com" }
+error:May-02-2022 13:03:53:Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+error:May-02-2022 13:04:13:Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+error:May-02-2022 13:22:26:Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+error:May-02-2022 13:25:09:Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+error:May-02-2022 13:41:19:{
+  userId: new ObjectId("6266ca75ff39855ed8a8729c"),
+  date: 2022-05-02T10:41:19.818Z,
+  amount: 12000,
+  products: [ { quantity: 1, _id: new ObjectId("6266ba16a1628b2418225cdd") } ],
+  _id: new ObjectId("626fb54ff57d75bf7ce15e49"),
+  createdAt: 2022-05-02T10:41:19.857Z,
+  updatedAt: 2022-05-02T10:41:19.857Z,
+  __v: 0
+}
+error:May-02-2022 13:55:56:{
+  userId: new ObjectId("62444cc4a2b9a0a27f40b08d"),
+  date: 2022-02-02T22:00:00.000Z,
+  amount: 500,
+  products: [
+    {
+      productId: new ObjectId("624469df1ea60c418d473dd1"),
+      quantity: 2,
+      _id: new ObjectId("626fb8bcfb625bd6794ef26a")
+    }
+  ],
+  _id: new ObjectId("626fb8bcfb625bd6794ef269"),
+  createdAt: 2022-05-02T10:55:56.857Z,
+  updatedAt: 2022-05-02T10:55:56.857Z,
+  __v: 0
+}
+error:May-02-2022 13:56:05:{
+  userId: new ObjectId("6266ca75ff39855ed8a8729c"),
+  date: 2022-05-02T10:56:05.315Z,
+  amount: 37000,
+  products: [
+    { quantity: 1, _id: new ObjectId("6266badfa1628b2418225cdf") },
+    { quantity: 1, _id: new ObjectId("6266ba16a1628b2418225cdd") }
+  ],
+  _id: new ObjectId("626fb8c5fb625bd6794ef26c"),
+  createdAt: 2022-05-02T10:56:05.323Z,
+  updatedAt: 2022-05-02T10:56:05.323Z,
+  __v: 0
+}
+error:May-02-2022 14:18:03:Users validation failed: firstName: Path `firstName` (``) is shorter than the minimum allowed length (2)., lastName: Path `lastName` (``) is shorter than the minimum allowed length (2).
+error:May-02-2022 14:18:18:Users validation failed: firstName: Path `firstName` (``) is shorter than the minimum allowed length (2)., lastName: Path `lastName` (``) is shorter than the minimum allowed length (2).
+error:May-02-2022 14:18:40:Users validation failed: firstName: Path `firstName` (``) is shorter than the minimum allowed length (2)., lastName: Path `lastName` (``) is shorter than the minimum allowed length (2).
+error:May-02-2022 14:19:04:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : "yy@gmail.com" }
+info:May-02-2022 15:15:53:the server go on 3000
+info:May-02-2022 15:20:08.790:the server go on 3000
+error:May-02-2022 15:22:50.855:development is not defined
+error:May-02-2022 15:22:50.855:development is not defined
+info:May-02-2022 15:23:51.742:the server go on 3000
+info:May-02-2022 15:28:26.756:the server go on 3000
+error:May-02-2022 15:28:27.906:development is not defined
+error:May-02-2022 15:28:27.906:development is not defined
+info:May-02-2022 15:32:13.239:the server go on 3000
+info:May-02-2022 15:32:58:the server go on 3000
+info:May-02-2022 15:35:43.260:the server go on 3000
+info:May-02-2022 15:38:15.529:the server go on 3000
+info:May-02-2022 15:38:43.169:the server go on 3000
+info:May-02-2022 15:39:22.849:the server go on 3000
+info:May-02-2022 15:40:03.369:the server go on 3000
+info:May-02-2022 15:41:22.378:the server go on 3000
+info:May-02-2022 15:41:54.133:the server go on 3000
+info:May-02-2022 15:47:15.209:the server go on 3000
+error:May-02-2022 15:47:32.046:Can't set headers after they are sent.
+error:May-02-2022 15:47:32.046:Can't set headers after they are sent.
+error:May-02-2022 15:47:34.298:Can't set headers after they are sent.
+error:May-02-2022 15:47:34.298:Can't set headers after they are sent.
+error:May-02-2022 15:47:35.754:Can't set headers after they are sent.
+error:May-02-2022 15:47:35.754:Can't set headers after they are sent.
+error:May-02-2022 15:47:36.705:Can't set headers after they are sent.
+error:May-02-2022 15:47:36.705:Can't set headers after they are sent.
+error:May-02-2022 15:48:47.410:Can't set headers after they are sent.
+error:May-02-2022 15:48:47.410:Can't set headers after they are sent.
+info:May-02-2022 15:55:32.021:the server go on 3000
+info:May-02-2022 15:55:47.928:the server go on 3000
+error:May-02-2022 15:55:51.847:Can't set headers after they are sent.
+error:May-02-2022 15:55:51.847:Can't set headers after they are sent.
+error:May-02-2022 15:55:54.838:Can't set headers after they are sent.
+error:May-02-2022 15:55:54.838:Can't set headers after they are sent.
+error:May-02-2022 15:55:56.370:Can't set headers after they are sent.
+error:May-02-2022 15:55:56.370:Can't set headers after they are sent.
+error:May-02-2022 15:55:56.391:Can't set headers after they are sent.
+error:May-02-2022 15:55:56.391:Can't set headers after they are sent.
+info:May-02-2022 15:57:12.655:the server go on 3000
+error:May-02-2022 15:57:47.843:Can't set headers after they are sent.
+error:May-02-2022 15:57:47.843:Can't set headers after they are sent.
+info:May-02-2022 15:59:16.415:the server go on 3000
+error:May-02-2022 15:59:22.959:Can't set headers after they are sent.
+error:May-02-2022 15:59:22.959:Can't set headers after they are sent.
+info:May-02-2022 16:00:13.480:the server go on 3000
+info:May-02-2022 16:03:23.498:the server go on 3000
+info:May-02-2022 16:37:01.390:the server go on 3000
+error:May-02-2022 16:38:47.873:development is not defined
+error:May-02-2022 16:38:47.873:development is not defined
+info:May-02-2022 16:40:18.155:the server go on 3000
+info:May-02-2022 16:40:56.219:the server go on 3000
+info:May-02-2022 16:45:21.218:before find By Id And Update
+error:May-02-2022 16:45:24.708:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : "yy@gmail.com" }
+error:May-02-2022 16:45:24.708:E11000 duplicate key error collection: 324103183-sulamitCohen&tamarOstry.users index: email_1 dup key: { : "yy@gmail.com" }
+info:May-02-2022 16:46:16.498:before find By Id And Update
+info:May-02-2022 16:46:17.330:after find By Id And Update
+info:May-02-2022 16:57:22.837:the server go on 3000
+info:May-02-2022 17:01:31.334:the server go on 3000
+error:May-02-2022 17:03:27.760:
+error:May-02-2022 17:03:27.760:
+error:May-02-2022 17:03:27.772:{
+  userId: new ObjectId("62444cc4a2b9a0a27f40b08d"),
+  date: 2022-02-02T22:00:00.000Z,
+  amount: 500,
+  products: [
+    {
+      productId: new ObjectId("624469df1ea60c418d473dd1"),
+      quantity: 2,
+      _id: new ObjectId("626fe4afaf25c016b6da9373")
+    }
+  ],
+  _id: new ObjectId("626fe4afaf25c016b6da9372"),
+  createdAt: 2022-05-02T14:03:27.748Z,
+  updatedAt: 2022-05-02T14:03:27.748Z,
+  __v: 0
+}
+error:May-02-2022 17:03:27.772:{
+  userId: new ObjectId("62444cc4a2b9a0a27f40b08d"),
+  date: 2022-02-02T22:00:00.000Z,
+  amount: 500,
+  products: [
+    {
+      productId: new ObjectId("624469df1ea60c418d473dd1"),
+      quantity: 2,
+      _id: new ObjectId("626fe4afaf25c016b6da9373")
+    }
+  ],
+  _id: new ObjectId("626fe4afaf25c016b6da9372"),
+  createdAt: 2022-05-02T14:03:27.748Z,
+  updatedAt: 2022-05-02T14:03:27.748Z,
+  __v: 0
+}
+info:May-02-2022 17:07:38.565:the server go on 3000
+error:May-02-2022 17:08:21.501:Users validation failed: email: please insert valid email, password: Path `password` (`555545`) is shorter than the minimum allowed length (8).
+error:May-02-2022 17:08:21.501:Users validation failed: email: please insert valid email, password: Path `password` (`555545`) is shorter than the minimum allowed length (8).
+error:May-02-2022 17:09:08.998:Users validation failed: email: please insert valid email
+error:May-02-2022 17:09:08.998:Users validation failed: email: please insert valid email
