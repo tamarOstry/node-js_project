@@ -18,6 +18,7 @@ app.use('/products', product);
 app.use('/category', category);
 app.use('/orders', orders);
 
+console.log('I love you!!')
 app.use((req,res)=>{
   res.status(404).sendFile(path.join(__dirname,'./static/HTML/404.html'));
 })

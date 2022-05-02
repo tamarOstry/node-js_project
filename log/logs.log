@@ -193,3 +193,4 @@ error:May-02-2022 17:08:21.501:Users validation failed: email: please insert val
 error:May-02-2022 17:08:21.501:Users validation failed: email: please insert valid email, password: Path `password` (`555545`) is shorter than the minimum allowed length (8).
 error:May-02-2022 17:09:08.998:Users validation failed: email: please insert valid email
 error:May-02-2022 17:09:08.998:Users validation failed: email: please insert valid email
+info:May-03-2022 00:54:39.345:the server go on 3000
