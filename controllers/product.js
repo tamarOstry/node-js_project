@@ -13,7 +13,7 @@ exports.getAll = async function (req, res,next) {
 
 exports.getProductByCategoryId = async function (req, res,next) {
     try {
-        const products = await productModel.find({ 'categoryId': req.params.categoryId });
+        const products = await productModel.find({'categoryId': req.params.categoryId});
         res.send(products);
     }
     catch (error) {
